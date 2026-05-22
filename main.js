@@ -338,7 +338,7 @@ var PXTrackerView = class extends import_obsidian.ItemView {
     this.renderDonut(two, hours, total);
     this.renderHistory(two);
     app.createDiv({ cls: "px-note-label", text: "Week note" });
-    const noteEl = app.createEl("textarea", { cls: "px-note", attr: { placeholder: "What moved this week? What am I distilling? What do I want Imir to know?" } });
+    const noteEl = app.createEl("textarea", { cls: "px-note", attr: { placeholder: "What moved this week? What am I distilling? What do I want my manager to know?" } });
     const wkey = getWeekKey(this.weekOffset);
     noteEl.value = ((_a = this.data[wkey]) == null ? void 0 : _a.note) || "";
     const saveBtn = app.createEl("button", { cls: "px-save", text: "Save this week" });
