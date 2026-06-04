@@ -1,7 +1,7 @@
 {
   "id": "px-tracker",
   "name": "PX Time Tracker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "minAppVersion": "1.0.0",
   "description": "Track weekly focus time across Product Experience themes. Daily and weekly logging with notes that connect to your vault.",
   "author": "Mette Walsted Kristiansen",
